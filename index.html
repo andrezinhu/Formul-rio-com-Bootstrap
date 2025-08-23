@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Bootstrap</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <style>
+        label {
+            padding: 8px 8px 0 8px;
+        }
+
+        .btn {
+            margin: 8px;
+        }
+
+        .container{
+            margin-top: 24px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2>Formulário de envio de dados</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="nome">Seu Nome:</label>
+                    <input class="form-control" type="text" id="nome">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="email">Seu E-mail:</label>
+                    <input class="form-control" type="email" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="telefone">Seu Telefone</label>
+                    <input class="form-control" type="text" id="telefone">
+                    </div>
+                    <button class="btn btn-dark">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
